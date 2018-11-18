@@ -1,0 +1,76 @@
+/* line 1, ../sass/partials/_body.scss */
+html, body, button, input, optgroup, select, textarea {
+  font-family: 'Rajdhani', 'Nunito Sans', 'Ubuntu', sans-serif;
+  height: 100%;
+}
+
+/* line 6, ../sass/partials/_body.scss */
+body {
+  background-color: #2a2a2a;
+}
+
+/* line 10, ../sass/partials/_body.scss */
+.flex-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media only screen and (min-width: 601px) {
+  /* line 2, ../sass/partials/_navbar.scss */
+  nav, nav .nav-wrapper i, nav a.sidenav-trigger, nav a.sidenav-trigger i {
+    height: 80px;
+    line-height: 80px;
+  }
+}
+/* line 8, ../sass/partials/_navbar.scss */
+.navbar-fixed {
+  height: 0;
+}
+
+/* line 12, ../sass/partials/_navbar.scss */
+nav {
+  background-color: transparent;
+  box-shadow: none;
+}
+/* line 15, ../sass/partials/_navbar.scss */
+nav .nav-wrapper {
+  padding: 0 2.5rem;
+}
+/* line 17, ../sass/partials/_navbar.scss */
+nav .nav-wrapper > ul > li {
+  height: 80px;
+}
+/* line 19, ../sass/partials/_navbar.scss */
+nav .nav-wrapper > ul > li > a {
+  outline: none;
+  color: #c9c9c9;
+  transition: .15s ease-out;
+}
+/* line 24, ../sass/partials/_navbar.scss */
+nav .nav-wrapper > ul > li > a:hover, nav .nav-wrapper > ul > li > ul:hover ~ a {
+  color: #fff;
+  background-color: transparent;
+}
+/* line 28, ../sass/partials/_navbar.scss */
+nav .nav-wrapper > ul > li .brand-logo {
+  position: static;
+  height: 100%;
+  display: flex;
+  margin-right: 15px;
+}
+/* line 33, ../sass/partials/_navbar.scss */
+nav .nav-wrapper > ul > li .brand-logo img {
+  height: 40px;
+  margin: auto;
+}
+/* line 38, ../sass/partials/_navbar.scss */
+nav .nav-wrapper > ul > li i {
+  margin-left: 1rem;
+  font-size: 1rem;
+}
+
+/* line 1, ../sass/partials/_sections.scss */
+section#landing-header, .header-wrapper {
+  height: 100%;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Login &middot; DevLearn</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Rajdhani:400,500,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="node_modules/materialize-css/dist/css/materialize.min.css">
+    <link rel="stylesheet" href="assets/css/login.css">
+</head>
+<body>
+    <div class="row bigform-row">
+        <div class="col s12 l6" id="form-section">
+            <div class="section-wrapper flex-center">
+                <div class="logo">
+                    <img src="assets/img/logo.svg" alt="DevLearn Logo">
+                </div>
+                <form class="form-wrapper">
+                    <h2 class="form-heading">Selamat<br>Datang Kembali!</h2>
+                    <h6 class="form-subheading">Siap untuk mempelajari lebih banyak hal-hal baru?</h6>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input id="auth-username" type="text" name="auth_username">
+                            <label for="auth-username">Username</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input id="auth-password" type="password" name="auth_password">
+                            <label for="auth-password">Password</label>
+                        </div>
+                    </div>
+                    <div class="switch">
+                        <p>
+                            <label>
+                                <input type="checkbox" class="filled-in" name="auth_remember" />
+                                <span>Remember Me</span>
+                            </label>
+                        </p>
+                    </div>
+                    <div class="buttons">
+                        <a class="waves-effect waves-light btn-large">Login</a>
+                        <a class="waves-effect waves-light btn-large">Sign up</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="col l6 show-on-large" id="background-section">
+            Img here
+        </div>
+    </div>
+
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/materialize-css/dist/js/materialize.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

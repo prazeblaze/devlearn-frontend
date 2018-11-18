@@ -1,0 +1,14 @@
+{
+  "name": "lcw-front",
+  "version": "1.0.0",
+  "description": "LCW Submission Baswedan",
+  "scripts": {},
+  "author": "R Galih Prastian W, Naufal Adriansyah",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.5.0",
+    "foundation-sites": "^6.5.1",
+    "jquery": "^3.3.1",
+    "materialize-css": "^1.0.0-rc.2"
+  }
+}

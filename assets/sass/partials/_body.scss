@@ -1,0 +1,14 @@
+html, body, button, input, optgroup, select, textarea {
+    font-family: 'Rajdhani', 'Nunito Sans', 'Ubuntu', sans-serif;
+    height: 100%;
+}
+
+body {
+    background-color: #2a2a2a;
+}
+
+.flex-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

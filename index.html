@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>DevLearn</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Rajdhani:400,500,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="node_modules/materialize-css/dist/css/materialize.min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+    <div class="navbar-fixed">
+        <nav>
+            <div class="nav-wrapper">
+                <ul id="nav-mobile" class="left hide-on-med-and-down">
+                    <li>
+                        <a href="#" class="brand-logo">
+                            <img src="assets/img/logo.svg" alt="DevLearn Logo">
+                        </a>
+                    </li>
+                    <li><a href="courses/iot">Kursus IoT</a></li>
+                    <li><a href="courses/ai">Kursus AI</a></li>
+                    <li>
+                        <a class="dropdown-trigger" href="#!" data-target="courses-dropdown">Kursus Lainnya<i class="fas fa-chevron-down right"></i></a>
+                        <ul id="courses-dropdown" class="dropdown-content">
+                            <li><a href="courses/web">Web Development</a></li>
+                            <li><a href="courses/arduino">Arduino</a></li>
+                            <li><a href="courses/datascience">Data Science</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="dropdown-trigger" href="#!" data-target="merch-dropdown">Merch<i class="fas fa-chevron-down right"></i></a>
+                        <ul id="merch-dropdown" class="dropdown-content">
+                            <li><a href="merch/hoodie">Hoodies</a></li>
+                            <li><a href="merch/shirts">Shirts</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="dropdown-trigger" href="#!" data-target="help-dropdown">Bantuan<i class="fas fa-chevron-down right"></i></a>
+                        <ul id="help-dropdown" class="dropdown-content">
+                            <li><a href="faq">FAQ</a></li>
+                            <li><a href="feedback">Feedback</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="about">Tentang Kami</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <section id="landing-header">
+        <div class="header-wrapper flex-center">
+            <h6>Era industri baru telah dimulai;</h6>
+            <h1>Revolusi Industri 4.0</h1>
+        </div>
+    </section>
+      
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/materialize-css/dist/js/materialize.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

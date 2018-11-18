@@ -1,0 +1,44 @@
+@media only screen and (min-width: 601px) {
+    nav, nav .nav-wrapper i, nav a.sidenav-trigger, nav a.sidenav-trigger i {
+        height: 80px;
+        line-height: 80px;
+    }
+}
+
+.navbar-fixed {
+    height: 0;
+}
+
+nav {
+    background-color: transparent;
+    box-shadow: none;
+    .nav-wrapper {
+        padding: 0 2.5rem;
+        & > ul > li {
+            height: 80px;
+            & > a {
+                outline: none;
+                color: #c9c9c9;
+                transition: .15s ease-out;
+            }
+            & > a:hover, & > ul:hover ~ a {
+                color: #fff;
+                background-color: transparent;
+            }
+            .brand-logo {
+                position: static;
+                height: 100%;
+                display: flex;
+                margin-right: 15px;
+                img {
+                    height: 40px;
+                    margin: auto;
+                }
+            }
+            i {
+                margin-left: 1rem;
+                font-size: 1rem;
+            }
+        }
+    }
+}
